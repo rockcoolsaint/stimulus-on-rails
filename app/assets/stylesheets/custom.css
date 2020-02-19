@@ -1,0 +1,41 @@
+header.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div#edit {
+  display: flex;
+  flex-direction: row;
+}
+
+#name-edit {
+  outline: none;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+#icon {
+  margin-top: 1em;
+  margin-right: 1em;
+  padding: 2em 2em;
+  background-color: #cddbf6;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.company-edit {
+  font-size: 3em;
+}
+
+.company-edit span {
+  display: inline-block;
+}
+
+.rounded-corner {
+  border-radius: 5px;
+}

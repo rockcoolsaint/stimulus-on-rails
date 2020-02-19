@@ -1,0 +1,19 @@
+<div data-controller="company" data-company-url="<%= company_path(@company) %>">
+  <p id="notice" data-target="company.notice"></p>
+  
+  <header class="flex-container">
+    <div data-target="company.name"></div>
+    <div><span>Unreviewed </span>|<span> Created Dec 24, 2019, 2:45 PM </span>|<span data-target="company.name"></span><span> was updated 5 mins ago by Inno</span></div>
+  </header>
+  
+  <div id="edit"class="flex-container">
+    <div id="icon" class="rounded-corner"><%= fa_stacked_icon "plus", base: "circle-o" %></div>
+    <div class="company">
+      <div>Company</div>
+      <div class="company-edit">
+        <span><strong>Add </strong></span>
+        <span id="name-edit" data-target="company.edit" data-action="click->company#nameEdit keydown->company#editWithKeyBoard" contenteditable="false"><%= @company.name %></span>
+      </div>
+    </div>
+  </div>
+</div>
