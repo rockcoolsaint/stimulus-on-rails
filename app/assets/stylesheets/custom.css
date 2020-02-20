@@ -39,3 +39,59 @@ div#edit {
 .rounded-corner {
   border-radius: 5px;
 }
+
+.action-item {
+  padding: 2px;
+  display: inline-block;
+  background-color: #cddbf6;
+  border-radius: 3px;
+}
+
+main {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.add {
+  margin-top: 1em;
+}
+
+.item {
+  margin-top: 2em;
+}
+
+.add-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.review-status-item {
+  padding: 8px;
+  background-color: #f13687;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.complete-status-item {
+  padding: 8px;
+  background-color: #39517e;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.contact-item {
+  padding: 2px;
+  background-color: #cddbf6;
+  border-radius: 3px;
+}
+
+.top-margin {
+  margin-top: 2em;
+}
+
+.bottom-margin {
+  margin-bottom: 1em;
+}
